@@ -46,7 +46,7 @@ class MyScreen extends StatelessWidget {
           leading: const Icon(EneftyIcons.home_2_outline),
         ),
         SliverPadding(
-          padding: EdgeInsets.only(top: 20),
+          padding: const EdgeInsets.only(top: 20),
           sliver: SliverList(
             delegate: SliverChildBuilderDelegate(
               (BuildContext context, int index) {
